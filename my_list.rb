@@ -5,9 +5,7 @@ class MyList
     @list = elements
   end
 
-  def each
-    @list.each{ |e| yield(e) }
+  def each(&block)
+    @list.each(&block)
   end
 end
-
-list = MyList.new(1, 2, 3, 4)
