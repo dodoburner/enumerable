@@ -1,5 +1,5 @@
-## My enumerable
-
+## Enumerable
+This is a project showing how to use modules and classes in ruby. It implements a subset of the functionalities of [Enumerable](https://ruby-doc.org/core-3.0.0/Enumerable.html).
 
 ## Authors
 
